@@ -1,9 +1,26 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
 }
+
+// Release signing. Values come from environment variables (CI) or an untracked
+// keystore.properties file (local builds). Nothing secret is ever committed.
+val keystoreProps = Properties().apply {
+    val f = rootProject.file("keystore.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+fun signingValue(env: String, prop: String): String? =
+    System.getenv(env)?.takeIf { it.isNotBlank() } ?: keystoreProps.getProperty(prop)?.takeIf { it.isNotBlank() }
+
+val releaseStoreFile = signingValue("KENARET_KEYSTORE_PATH", "storeFile")
+val releaseStorePassword = signingValue("KENARET_KEYSTORE_PASSWORD", "storePassword")
+val releaseKeyAlias = signingValue("KENARET_KEY_ALIAS", "keyAlias")
+val releaseKeyPassword = signingValue("KENARET_KEY_PASSWORD", "keyPassword") ?: releaseStorePassword
+val hasReleaseSigning = releaseStoreFile != null && releaseStorePassword != null && releaseKeyAlias != null
 
 android {
     namespace = "com.voria.kenaret"
@@ -13,7 +30,8 @@ android {
         applicationId = "com.voria.kenaret"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
+        // CI passes the run number so every store upload gets a higher versionCode.
+        versionCode = System.getenv("KENARET_VERSION_CODE")?.toIntOrNull() ?: 1
         versionName = "1.0.0"
 
         vectorDrawables {
@@ -21,8 +39,22 @@ android {
         }
     }
 
+    signingConfigs {
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = file(releaseStoreFile!!)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (hasReleaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),

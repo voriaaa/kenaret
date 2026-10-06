@@ -13,3 +13,5 @@
 *.keystore
 *.jks
 gradle-output.log
+keystore.properties
+*.p12

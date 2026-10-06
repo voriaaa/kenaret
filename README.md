@@ -85,6 +85,32 @@ Requirements: JDK 17 and the Android SDK (compileSdk 35).
 ./gradlew testDebugUnitTest      # unit tests
 ```
 
+## Signed release (APK + AAB)
+
+Release builds are signed in CI with a private upload key that is **never committed**. Add these four
+repository secrets (**Settings → Secrets and variables → Actions → New repository secret**):
+
+| Secret | Value |
+|---|---|
+| `KENARET_KEYSTORE_BASE64` | the keystore file, base64-encoded (`base64 -w0 kenaret-release.jks`) |
+| `KENARET_KEYSTORE_PASSWORD` | keystore password |
+| `KENARET_KEY_ALIAS` | `kenaret` |
+| `KENARET_KEY_PASSWORD` | key password (same as the keystore password for PKCS12) |
+
+With the secrets present, every push to `main` also produces:
+
+- `kenaret-release-apk-vN` — signed APK for Cafe Bazaar, Myket or direct install
+- `kenaret-release-aab-vN` — signed App Bundle for Google Play
+
+`N` is the workflow run number, which is also used as the `versionCode`, so each build can be uploaded to a store.
+Without the secrets the release steps are skipped and only the debug APK is built.
+
+For a local signed build, copy `keystore.properties.example` to `keystore.properties` (git-ignored) and run
+`./gradlew assembleRelease bundleRelease`.
+
+> Keep a safe backup of the keystore and its password. Every future update in Cafe Bazaar / Myket must be signed with
+> the same key. For Google Play, enrol in Play App Signing; this key then acts as your upload key.
+
 ## GitHub Actions
 
 `.github/workflows/build-apk.yml` runs on every push to `main`, on pull requests and manually (**Run workflow**). It installs JDK 17 and the Android SDK, builds the debug APK, uploads it as the **`kenaret-debug-apk`** artifact, then runs the unit tests.
