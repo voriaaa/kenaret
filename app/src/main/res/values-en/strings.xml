@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kenaret</string>
+    <string name="app_tagline">For the days you need each other most.</string>
+    <string name="language_switch_short">فارسی</string>
+    <string name="language_persian">فارسی (Persian)</string>
+    <string name="language_english">English</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_change">Change</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_period_start">Remove the period logged on this day</string>
+    <string name="action_delete_record">Delete this record</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_log_period">Log a period start</string>
+    <string name="action_log_symptoms">Log symptoms for this day</string>
+    <string name="action_log_symptoms_today">Log today\'s symptoms</string>
+    <string name="action_next_month">Next month</string>
+    <string name="action_previous_month">Previous month</string>
+    <string name="action_ok">OK</string>
+    <string name="action_period_ended_today">My period ended today</string>
+    <string name="action_period_started_other_day">My period started on another day</string>
+    <string name="action_period_started_this_day">My period started on this day</string>
+    <string name="action_period_started_today">My period started today</string>
+    <string name="action_save">Save</string>
+    <string name="actions_title">Quick log</string>
+    <string name="welcome_start">Let\'s begin</string>
+    <string name="welcome_privacy_note">No sign-up. Your data stays on this phone only.</string>
+    <string name="role_title">Who is using Kenaret?</string>
+    <string name="role_subtitle">Kenaret is designed for both of you. Each of you gets an experience made for you.</string>
+    <string name="role_her">It\'s me</string>
+    <string name="role_her_hint">I track my own cycle.</string>
+    <string name="role_partner">I\'m the partner</string>
+    <string name="role_partner_hint">I want to understand and support better.</string>
+    <string name="setup_title">Your cycle</string>
+    <string name="setup_subtitle">This is only used for estimates and you can change it any time.</string>
+    <string name="setup_last_period">First day of your last period</string>
+    <string name="setup_cycle_length">Average cycle length</string>
+    <string name="setup_period_length">Usual period length</string>
+    <string name="setup_range_hint">Between %1$d and %2$d days</string>
+    <string name="setup_unknown_length">I don\'t know my cycle length</string>
+    <string name="setup_unknown_explanation">We\'ll start with 28 days as a first estimate. As you log more cycles, the estimate can get better.</string>
+    <string name="setup_notification_note">Kenaret will ask for permission to show reminders. You can change this any time in settings.</string>
+    <string name="days_count">%1$d days</string>
+    <string name="partner_setup_title">Connect to your partner</string>
+    <string name="partner_setup_intro">In Kenaret, cycle information belongs to her. She chooses what to share with you.</string>
+    <string name="partner_connect_title">Pairing code</string>
+    <string name="partner_connect_hint">Ask her to open Settings → Partner in Kenaret and send you the pairing code.</string>
+    <string name="partner_connect_button">Connect to partner</string>
+    <string name="partner_code_label">Pairing code</string>
+    <string name="partner_code_invalid">This code isn\'t valid. Please check it again.</string>
+    <string name="partner_setup_privacy">Pairing works offline, with no server. The code only contains what\'s needed for estimates. No symptoms, notes or health data are ever included.</string>
+    <string name="partner_setup_later">I\'ll connect later</string>
+    <string name="home_her_greeting">How are you today?</string>
+    <string name="home_no_data_title">No period logged yet</string>
+    <string name="home_no_data_body">Log the first day of your last period to see estimates.</string>
+    <string name="cycle_day_label">Cycle day</string>
+    <string name="cycle_of_length">of a ~%1$d-day cycle</string>
+    <string name="cycle_day_n">Cycle day %1$d</string>
+    <string name="on_period_day">Probably day %1$d of your period</string>
+    <string name="next_period_in_days">Next period probably in %1$d days</string>
+    <string name="next_period_tomorrow">Next period probably tomorrow</string>
+    <string name="next_period_today">Your period may start today</string>
+    <string name="next_period_late">The estimate passed %1$d days ago. If your period has started, log it.</string>
+    <string name="next_period_date">Estimated next period: %1$s</string>
+    <string name="current_phase_title">Current phase (estimated)</string>
+    <string name="ovulation_window_range">Estimated ovulation window this cycle: %1$s to %2$s</string>
+    <string name="self_care_title">Take a little extra care of yourself today</string>
+    <string name="advice_general_note">These are general suggestions and everyone\'s experience is different. They don\'t replace medical advice.</string>
+    <string name="today_symptoms_title">Logged symptoms</string>
+    <string name="period_logged">Period start logged. Reminders updated.</string>
+    <string name="period_log_overlap">This day overlaps a period you\'ve already logged.</string>
+    <string name="period_update_conflict">Another period already starts on that date.</string>
+    <string name="phase_menstrual">Menstrual</string>
+    <string name="phase_follicular">Follicular</string>
+    <string name="phase_ovulation">Estimated ovulation window</string>
+    <string name="phase_luteal">Luteal</string>
+    <string name="phase_desc_her_menstrual">Your period days. Your body may want more rest and care; everyone\'s experience is different.</string>
+    <string name="phase_desc_her_follicular">After your period. Some people feel more energetic around now, others notice no difference.</string>
+    <string name="phase_desc_her_ovulation">Based on estimates, ovulation may happen in this window. This isn\'t a certain date.</string>
+    <string name="phase_desc_her_luteal">The days before your next period. Some people notice tiredness, bloating or tenderness; others have no symptoms.</string>
+    <string name="phase_desc_partner_menstrual">These may be her period days. Instead of guessing, ask what would help.</string>
+    <string name="phase_desc_partner_follicular">The phase after her period. Everyone\'s energy and mood differ, so ask rather than assume.</string>
+    <string name="phase_desc_partner_ovulation">The estimated ovulation window. It\'s only an estimate and says nothing about how she feels or acts.</string>
+    <string name="phase_desc_partner_luteal">The days before her next period. She may or may not have symptoms; practical, non-judgmental help is usually the best choice.</string>
+    <string name="home_partner_greeting">Be there for her today</string>
+    <string name="partner_not_connected_title">You\'re not connected yet</string>
+    <string name="partner_not_connected_body">When she sends you a pairing code, the information she chooses to share will appear here. Until then, here are some general tips.</string>
+    <string name="partner_status_title">Cycle status</string>
+    <string name="partner_status_on_period">These may be her period days.</string>
+    <string name="partner_status_days">Her period will probably start in %1$d days.</string>
+    <string name="partner_status_tomorrow">Her period will probably start tomorrow.</string>
+    <string name="partner_status_today">Her period may start today.</string>
+    <string name="partner_status_estimate_note">This is an estimate based only on what she has chosen to share.</string>
+    <string name="partner_help_title">How can you help today?</string>
+    <string name="partner_advice_title">Today\'s suggestions</string>
+    <string name="partner_avoid_title">Better to avoid</string>
+    <string name="experience_differs_note">Everyone experiences their cycle differently. Understanding it better can help you communicate and support each other.</string>
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_go_today">Go to today</string>
+    <string name="calendar_predicted">Estimated</string>
+    <string name="calendar_period_day">Period day</string>
+    <string name="calendar_period_predicted">Possible period day</string>
+    <string name="calendar_late">The estimated period date has passed. If it has started, log it.</string>
+    <string name="calendar_no_info">No information for this day.</string>
+    <string name="calendar_estimate_note">Future days and phases are estimates and may differ from your real experience.</string>
+    <string name="legend_period">Period days</string>
+    <string name="legend_ovulation">Estimated ovulation window</string>
+    <string name="legend_predicted_period">Possible period (estimate)</string>
+    <string name="legend_symptoms">Symptoms logged</string>
+    <string name="period_delete_title">Remove this period?</string>
+    <string name="period_delete_body">This record will be removed and estimates and reminders will be recalculated.</string>
+    <string name="symptoms_title">Log symptoms</string>
+    <string name="symptoms_note_label">Personal note (optional)</string>
+    <string name="symptoms_private_note">Symptoms and notes are private and are never shared with your partner.</string>
+    <string name="symptom_cramps">Cramps</string>
+    <string name="symptom_headache">Headache</string>
+    <string name="symptom_back_pain">Back pain</string>
+    <string name="symptom_fatigue">Fatigue</string>
+    <string name="symptom_bloating">Bloating</string>
+    <string name="symptom_breast_tenderness">Breast tenderness</string>
+    <string name="symptom_appetite">Appetite changes</string>
+    <string name="symptom_sleep">Sleep issues</string>
+    <string name="symptom_mood">Mood changes</string>
+    <string name="symptom_other">Other</string>
+    <string name="severity_none">None</string>
+    <string name="severity_mild">Mild</string>
+    <string name="severity_moderate">Moderate</string>
+    <string name="severity_severe">Severe</string>
+    <string name="severe_title">Take care of yourself</string>
+    <string name="insights_title">Insights</string>
+    <string name="insights_summary_title">Cycle summary</string>
+    <string name="insights_not_enough">After you log at least two periods, you\'ll see your cycle statistics here.</string>
+    <string name="insights_average">Your recent cycles averaged %1$d days.</string>
+    <string name="insights_range">Your last %1$d cycles were between %2$d and %3$d days long.</string>
+    <string name="insights_range_same">Your last %1$d cycles were each %2$d days long.</string>
+    <string name="insights_cycles_recorded">Complete cycles recorded: %1$d</string>
+    <string name="insights_period_average">Average length of periods with a logged end: %1$d days</string>
+    <string name="insights_statistical_note">These are statistics only, not medical conclusions.</string>
+    <string name="insights_chart_title">Recent cycle lengths (days)</string>
+    <string name="history_title">Period history</string>
+    <string name="history_empty">Nothing logged yet.</string>
+    <string name="history_period_length">Length: %1$d days</string>
+    <string name="history_end_unknown">End not logged (estimate: %1$d days)</string>
+    <string name="period_edit_title">Edit period</string>
+    <string name="period_start_label">Start date</string>
+    <string name="period_end_label">End date</string>
+    <string name="period_end_not_set">Not set</string>
+    <string name="learn_title">Learn</string>
+    <string name="learn_subtitle">Ideas for better support and communication. Always adapt them to her own experience and wishes.</string>
+    <string name="filter_all">All</string>
+    <string name="category_self_care">Self-care</string>
+    <string name="category_emotional">Emotional support</string>
+    <string name="category_practical">Practical support</string>
+    <string name="category_communication">Communication</string>
+    <string name="category_education">Learning</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_calendar">Calendar</string>
+    <string name="tab_insights">Insights</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_settings">Settings</string>
+    <string name="settings_cycle">Cycle details</string>
+    <string name="settings_cycle_hint">Cycle and period length</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_hint">Reminder time and types</string>
+    <string name="settings_partner">Partner</string>
+    <string name="settings_partner_hint_her">Pairing and what you share</string>
+    <string name="settings_partner_hint_partner">Enter or update the pairing code</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_hint">Private notifications and on-device data</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_about">About Kenaret</string>
+    <string name="settings_disclaimer">Medical disclaimer</string>
+    <string name="settings_delete_all">Delete all data</string>
+    <string name="settings_delete_all_hint">Erase everything from this phone</string>
+    <string name="theme_system">Match system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="delete_all_title">Delete all data?</string>
+    <string name="delete_all_body">All periods, symptoms, notes, settings and pairing data will be permanently erased from this phone and reminders will be cancelled. This can\'t be undone.</string>
+    <string name="delete_all_confirm">Delete everything</string>
+    <string name="cycle_settings_estimate">Current estimate from %2$d recorded cycles: %1$d days. Kenaret uses the average of your recent cycles.</string>
+    <string name="cycle_settings_note">Saving recalculates estimates and upcoming reminders.</string>
+    <string name="notif_enabled">Reminders on</string>
+    <string name="notif_time">Reminder time</string>
+    <string name="notif_types_title">Reminder types</string>
+    <string name="notif_period">Period reminders</string>
+    <string name="notif_period_hint">Two days before and on the estimated start</string>
+    <string name="notif_phase">Phase change reminders</string>
+    <string name="notif_phase_hint">When the estimated phase changes</string>
+    <string name="notif_partner">Partner reminders</string>
+    <string name="notif_partner_hint">Reminders to help you support her</string>
+    <string name="notif_educational">Learning tips</string>
+    <string name="notif_educational_hint">An occasional short, practical tip</string>
+    <string name="notif_hide_sensitive">Hide sensitive info in notifications</string>
+    <string name="notif_hide_sensitive_hint">Shows only “Kenaret has a reminder for you” instead of details.</string>
+    <string name="notif_note">On the lock screen, notifications never show details. Reminders are rescheduled automatically when dates or cycle length change.</string>
+    <string name="notif_permission_missing">Notification permission isn\'t granted, so reminders can\'t be shown.</string>
+    <string name="notif_permission_allow">Allow</string>
+    <string name="notification_channel_name">Reminders</string>
+    <string name="notification_channel_description">Cycle reminders and tips from Kenaret</string>
+    <string name="notification_private_body">Kenaret has a reminder for you.</string>
+    <string name="notif_tip_title">Today\'s tip: %1$s</string>
+    <string name="notif_her_period_soon_title">Your period may be coming soon.</string>
+    <string name="notif_her_period_soon_body">If you usually need something particular in these days, it may help to get ready ahead of time and give your body room to rest.</string>
+    <string name="notif_her_day1_title">Cycle day 1</string>
+    <string name="notif_her_day1_body">Pay a little more attention to your body\'s needs today. Rest, water and the care that usually works for you can help. If your period started, remember to log it.</string>
+    <string name="notif_her_follicular_title">A new phase of your cycle</string>
+    <string name="notif_her_follicular_body">By estimate, you\'re probably in the follicular phase. Some people feel more energetic now; see how it is for you.</string>
+    <string name="notif_her_ovulation_title">Estimated ovulation window</string>
+    <string name="notif_her_ovulation_body">By estimate, your possible ovulation window has started. This isn\'t a certain date, and Kenaret isn\'t a method of contraception.</string>
+    <string name="notif_her_luteal_title">Luteal phase</string>
+    <string name="notif_her_luteal_body">You\'re probably entering the days before your period. If you usually need more rest or care around now, make room for it.</string>
+    <string name="notif_partner_period_soon_title">Her period may be coming soon.</string>
+    <string name="notif_partner_period_soon_body">Today you could start with a simple question: Is there anything I can help with?</string>
+    <string name="notif_partner_day1_title">Today may be the first day of her period.</string>
+    <string name="notif_partner_day1_body">If you want to help, ask her what she needs instead of guessing.</string>
+    <string name="notif_partner_follicular_title">A new phase of her cycle</string>
+    <string name="notif_partner_follicular_body">By estimate, her period has probably ended. It could be a nice time to plan something together; ask what she\'d enjoy.</string>
+    <string name="notif_partner_ovulation_title">Estimated ovulation window</string>
+    <string name="notif_partner_ovulation_body">This is only an estimate and says nothing about how she feels. Ask her how her day is going.</string>
+    <string name="notif_partner_luteal_title">The days before her period</string>
+    <string name="notif_partner_luteal_body">Practical, non-judgmental help is often valuable now, like volunteering for small everyday tasks.</string>
+    <string name="partner_her_intro">You decide what your partner can see. By default, only general cycle information is shared.</string>
+    <string name="share_title">What you can share</string>
+    <string name="share_phase">Cycle phase</string>
+    <string name="share_next_date">Estimated period date</string>
+    <string name="share_days_until">Days until your period</string>
+    <string name="private_title">Always private</string>
+    <string name="private_note">In this version, this information never leaves your phone.</string>
+    <string name="pairing_nothing_shared">Choose at least one item to share to create a pairing code.</string>
+    <string name="pairing_code_title">Your pairing code</string>
+    <string name="pairing_code_how">Send this code to your partner to enter in Kenaret. It only contains your last period start, cycle and period length, and your sharing choices.</string>
+    <string name="pairing_copy">Copy</string>
+    <string name="pairing_share">Share</string>
+    <string name="pairing_share_message">My Kenaret pairing code: %1$s</string>
+    <string name="pairing_update_note">Kenaret has no server, so updates aren\'t automatic. After logging a new period or changing what you share, send the new code again.</string>
+    <string name="partner_connected_title">You\'re connected</string>
+    <string name="partner_connected_since">Last updated: %1$s</string>
+    <string name="partner_shared_with_you">She has shared with you:</string>
+    <string name="partner_update_title">Update with a new code</string>
+    <string name="partner_disconnect">Disconnect</string>
+    <string name="partner_disconnect_body">The received information will be removed from this phone and related reminders cancelled.</string>
+    <string name="privacy_title">Your data, on your phone</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_body">Kenaret is a cycle tracker for couples. Instead of being for one person only, it helps both of you understand the cycle and support and communicate better at the right times.</string>
+    <string name="about_principle_title">Our principle</string>
+    <string name="about_principle_body">Everyone experiences their cycle differently. Kenaret never blames anyone\'s behaviour on hormones; it\'s about awareness, respect and better communication.</string>
+    <string name="about_font_credit">Vazirmatn font by Saber Rastikerdar, under the SIL Open Font License.</string>
+    <string name="disclaimer_short">Predictions are approximate. Kenaret is not a medical diagnostic tool or a method of contraception.</string>
+    <string name="disclaimer_full">The information and predictions in this app are approximate and may differ for each person. This app is not a medical diagnostic tool or a method of contraception.</string>
+    <string name="disclaimer_severe">If you have severe, persistent or unusual symptoms, please talk to a doctor or health professional.</string>
+    <string name="disclaimer_no_medication">Kenaret doesn\'t diagnose anything and never suggests medication or doses. Suggestions are general and don\'t replace professional advice.</string>
+    <string-array name="her_daily_care">
+        <item>Enough rest</item>
+        <item>Drinking water</item>
+        <item>Noticing how your body feels</item>
+        <item>Good sleep</item>
+        <item>Light activity, if you feel like it</item>
+    </string-array>
+    <string-array name="partner_do">
+        <item>Ask her if she needs anything.</item>
+        <item>If she\'s tired, give her room to rest.</item>
+        <item>Volunteer for small tasks.</item>
+        <item>Don\'t judge how she feels.</item>
+        <item>If she\'s in pain, take it seriously.</item>
+    </string-array>
+    <string-array name="partner_dont">
+        <item>Joking about periods</item>
+        <item>Saying “It\'s all just hormones”</item>
+        <item>Assuming she must be upset or irritable</item>
+        <item>Downplaying pain or discomfort</item>
+    </string-array>
+    <string-array name="private_items">
+        <item>Symptoms</item>
+        <item>Personal notes</item>
+        <item>Pain severity</item>
+        <item>Health information</item>
+    </string-array>
+    <string-array name="privacy_points">
+        <item>You don\'t need an account or sign-in to use Kenaret.</item>
+        <item>Everything is stored only on this phone. Kenaret doesn\'t even have internet permission.</item>
+        <item>Your data is excluded from cloud backups and device-to-device transfers.</item>
+        <item>Symptoms and notes are never shared.</item>
+        <item>Notifications never show details on the lock screen.</item>
+        <item>You can erase all of your data at any time.</item>
+    </string-array>
+</resources>

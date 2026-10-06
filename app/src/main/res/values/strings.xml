@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">کنارت</string>
+    <string name="app_tagline">برای روزهایی که بیشتر به هم نیاز دارید.</string>
+    <string name="language_switch_short">English</string>
+    <string name="language_persian">فارسی</string>
+    <string name="language_english">English</string>
+    <string name="action_back">بازگشت</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_change">تغییر</string>
+    <string name="action_clear">پاک کردن</string>
+    <string name="action_close">بستن</string>
+    <string name="action_confirm">تأیید</string>
+    <string name="action_continue">ادامه</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_delete_period_start">حذف ثبت پریود این روز</string>
+    <string name="action_delete_record">حذف این ثبت</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_log_period">ثبت شروع پریود</string>
+    <string name="action_log_symptoms">ثبت علائم این روز</string>
+    <string name="action_log_symptoms_today">ثبت علائم امروز</string>
+    <string name="action_next_month">ماه بعد</string>
+    <string name="action_previous_month">ماه قبل</string>
+    <string name="action_ok">باشه</string>
+    <string name="action_period_ended_today">پریودم امروز تمام شد</string>
+    <string name="action_period_started_other_day">پریودم روز دیگری شروع شد</string>
+    <string name="action_period_started_this_day">پریودم این روز شروع شد</string>
+    <string name="action_period_started_today">پریودم امروز شروع شد</string>
+    <string name="action_save">ذخیره</string>
+    <string name="actions_title">ثبت سریع</string>
+    <string name="welcome_start">شروع کنیم</string>
+    <string name="welcome_privacy_note">بدون ثبت‌نام. اطلاعاتت فقط روی همین گوشی ذخیره می‌شود.</string>
+    <string name="role_title">شما چه کسی هستید؟</string>
+    <string name="role_subtitle">کنارت برای هر دو نفر طراحی شده است. هر کدام تجربه مخصوص خودش را دارد.</string>
+    <string name="role_her">من هستم</string>
+    <string name="role_her_hint">چرخه‌ام را خودم ثبت و دنبال می‌کنم.</string>
+    <string name="role_partner">پارتنر هستم</string>
+    <string name="role_partner_hint">می‌خواهم همراه و حامی بهتری باشم.</string>
+    <string name="setup_title">اطلاعات چرخه</string>
+    <string name="setup_subtitle">این اطلاعات فقط برای تخمین‌ها استفاده می‌شود و هر زمان قابل تغییر است.</string>
+    <string name="setup_last_period">تاریخ شروع آخرین پریود</string>
+    <string name="setup_cycle_length">میانگین طول چرخه</string>
+    <string name="setup_period_length">مدت معمول پریود</string>
+    <string name="setup_range_hint">بین %1$d تا %2$d روز</string>
+    <string name="setup_unknown_length">طول چرخه‌ام را نمی‌دانم</string>
+    <string name="setup_unknown_explanation">فعلاً از ۲۸ روز برای تخمین اولیه استفاده می‌کنیم. با ثبت چرخه‌های بعدی، تخمین می‌تواند دقیق‌تر شود.</string>
+    <string name="setup_notification_note">کنارت برای یادآوری‌ها اجازه نمایش اعلان می‌خواهد. هر زمان می‌توانی آن را در تنظیمات تغییر دهی.</string>
+    <string name="days_count">%1$d روز</string>
+    <string name="partner_setup_title">اتصال به پارتنر</string>
+    <string name="partner_setup_intro">در کنارت، اطلاعات چرخه متعلق به خود اوست. او انتخاب می‌کند چه چیزی با تو به اشتراک گذاشته شود.</string>
+    <string name="partner_connect_title">کد اتصال</string>
+    <string name="partner_connect_hint">از او بخواه در کنارت به تنظیمات ← پارتنر برود و کد اتصال را برایت بفرستد.</string>
+    <string name="partner_connect_button">اتصال به پارتنر</string>
+    <string name="partner_code_label">کد اتصال</string>
+    <string name="partner_code_invalid">این کد معتبر نیست. لطفاً دوباره بررسی کن.</string>
+    <string name="partner_setup_privacy">اتصال بدون اینترنت و بدون سرور انجام می‌شود. کد فقط شامل اطلاعات لازم برای تخمین است و هیچ علامت، یادداشت یا اطلاعات سلامتی در آن نیست.</string>
+    <string name="partner_setup_later">بعداً وصل می‌شوم</string>
+    <string name="home_her_greeting">امروز چطوری؟</string>
+    <string name="home_no_data_title">هنوز پریودی ثبت نشده</string>
+    <string name="home_no_data_body">برای دیدن تخمین‌ها، تاریخ شروع آخرین پریودت را ثبت کن.</string>
+    <string name="cycle_day_label">روز چرخه</string>
+    <string name="cycle_of_length">از چرخه حدوداً %1$d روزه</string>
+    <string name="cycle_day_n">روز %1$d چرخه</string>
+    <string name="on_period_day">احتمالاً روز %1$d پریود</string>
+    <string name="next_period_in_days">پریود بعدی احتمالاً %1$d روز دیگر</string>
+    <string name="next_period_tomorrow">پریود بعدی احتمالاً فردا</string>
+    <string name="next_period_today">پریود ممکن است امروز شروع شود</string>
+    <string name="next_period_late">تاریخ تخمینی %1$d روز گذشته است. اگر پریودت شروع شده، ثبتش کن.</string>
+    <string name="next_period_date">تاریخ احتمالی پریود بعدی: %1$s</string>
+    <string name="current_phase_title">مرحله فعلی چرخه (تخمینی)</string>
+    <string name="ovulation_window_range">بازه احتمالی تخمک‌گذاری در این چرخه: %1$s تا %2$s</string>
+    <string name="self_care_title">امروز به خودت بیشتر توجه کن</string>
+    <string name="advice_general_note">این توصیه‌ها عمومی هستند و تجربه هر فرد متفاوت است. جای مشورت با پزشک را نمی‌گیرند.</string>
+    <string name="today_symptoms_title">علائم ثبت‌شده</string>
+    <string name="period_logged">شروع پریود ثبت شد. یادآوری‌ها به‌روز شدند.</string>
+    <string name="period_log_overlap">این روز با یک پریود ثبت‌شده هم‌پوشانی دارد.</string>
+    <string name="period_update_conflict">پریود دیگری با همین تاریخ شروع ثبت شده است.</string>
+    <string name="phase_menstrual">پریود (قاعدگی)</string>
+    <string name="phase_follicular">فولیکولار</string>
+    <string name="phase_ovulation">بازه احتمالی تخمک‌گذاری</string>
+    <string name="phase_luteal">لوتئال</string>
+    <string name="phase_desc_her_menstrual">روزهای پریود. ممکن است بدنت به استراحت و مراقبت بیشتری نیاز داشته باشد؛ تجربه هر فرد متفاوت است.</string>
+    <string name="phase_desc_her_follicular">بعد از پریود. بعضی افراد در این روزها انرژی بیشتری حس می‌کنند و بعضی تفاوتی حس نمی‌کنند.</string>
+    <string name="phase_desc_her_ovulation">بر اساس تخمین، ممکن است در این بازه تخمک‌گذاری اتفاق بیفتد. این تاریخ قطعی نیست.</string>
+    <string name="phase_desc_her_luteal">روزهای پیش از پریود بعدی. بعضی افراد خستگی، نفخ یا حساسیت بیشتری حس می‌کنند و بعضی هیچ علامتی ندارند.</string>
+    <string name="phase_desc_partner_menstrual">ممکن است این روزها روزهای پریود او باشد. به جای حدس زدن، بپرس چه چیزی کمکش می‌کند.</string>
+    <string name="phase_desc_partner_follicular">مرحله بعد از پریود. حال و انرژی هر کس متفاوت است؛ فرض نکن، بپرس.</string>
+    <string name="phase_desc_partner_ovulation">بازه احتمالی تخمک‌گذاری. این فقط یک تخمین است و درباره حس یا رفتار او چیزی نمی‌گوید.</string>
+    <string name="phase_desc_partner_luteal">روزهای پیش از پریود بعدی. ممکن است بدنش علائمی داشته باشد یا نداشته باشد؛ کمک عملی و بدون قضاوت معمولاً بهترین انتخاب است.</string>
+    <string name="home_partner_greeting">امروز کنارش باش</string>
+    <string name="partner_not_connected_title">هنوز به پارتنرت وصل نشده‌ای</string>
+    <string name="partner_not_connected_body">وقتی او کد اتصال را برایت بفرستد، اطلاعاتی که اجازه داده اینجا نمایش داده می‌شود. تا آن موقع، توصیه‌های عمومی را ببین.</string>
+    <string name="partner_status_title">وضعیت چرخه</string>
+    <string name="partner_status_on_period">ممکن است این روزها روزهای پریود او باشد.</string>
+    <string name="partner_status_days">پریود احتمالاً %1$d روز دیگر شروع می‌شود.</string>
+    <string name="partner_status_tomorrow">پریود احتمالاً فردا شروع می‌شود.</string>
+    <string name="partner_status_today">ممکن است پریود او امروز شروع شود.</string>
+    <string name="partner_status_estimate_note">این اطلاعات تخمینی است و فقط بر اساس چیزی است که او به اشتراک گذاشته.</string>
+    <string name="partner_help_title">امروز چطور می‌توانی کمک کنی؟</string>
+    <string name="partner_advice_title">پیشنهاد امروز</string>
+    <string name="partner_avoid_title">بهتر است انجام ندهی</string>
+    <string name="experience_differs_note">تجربه چرخه برای هر فرد متفاوت است. شناخت بهتر چرخه می‌تواند به ارتباط و حمایت بهتر بین شما کمک کند.</string>
+    <string name="calendar_title">تقویم</string>
+    <string name="calendar_go_today">برو به امروز</string>
+    <string name="calendar_predicted">پیش‌بینی</string>
+    <string name="calendar_period_day">روز پریود</string>
+    <string name="calendar_period_predicted">پریود احتمالی</string>
+    <string name="calendar_late">تاریخ تخمینی پریود گذشته است. اگر شروع شده، آن را ثبت کن.</string>
+    <string name="calendar_no_info">برای این روز اطلاعاتی وجود ندارد.</string>
+    <string name="calendar_estimate_note">روزهای آینده و مراحل چرخه تخمینی هستند و ممکن است با تجربه واقعی تو فرق داشته باشند.</string>
+    <string name="legend_period">روزهای پریود</string>
+    <string name="legend_ovulation">بازه احتمالی تخمک‌گذاری</string>
+    <string name="legend_predicted_period">پریود احتمالی (پیش‌بینی)</string>
+    <string name="legend_symptoms">علائم ثبت‌شده</string>
+    <string name="period_delete_title">حذف ثبت پریود؟</string>
+    <string name="period_delete_body">این ثبت حذف می‌شود و تخمین‌ها و یادآوری‌ها دوباره محاسبه می‌شوند.</string>
+    <string name="symptoms_title">ثبت علائم</string>
+    <string name="symptoms_note_label">یادداشت شخصی (اختیاری)</string>
+    <string name="symptoms_private_note">علائم و یادداشت‌ها خصوصی هستند و هیچ‌وقت با پارتنر به اشتراک گذاشته نمی‌شوند.</string>
+    <string name="symptom_cramps">درد شکم</string>
+    <string name="symptom_headache">سردرد</string>
+    <string name="symptom_back_pain">کمردرد</string>
+    <string name="symptom_fatigue">خستگی</string>
+    <string name="symptom_bloating">نفخ</string>
+    <string name="symptom_breast_tenderness">حساسیت سینه</string>
+    <string name="symptom_appetite">تغییر اشتها</string>
+    <string name="symptom_sleep">مشکل خواب</string>
+    <string name="symptom_mood">تغییر خلق‌وخو</string>
+    <string name="symptom_other">سایر</string>
+    <string name="severity_none">بدون علامت</string>
+    <string name="severity_mild">خفیف</string>
+    <string name="severity_moderate">متوسط</string>
+    <string name="severity_severe">شدید</string>
+    <string name="severe_title">مراقب خودت باش</string>
+    <string name="insights_title">بینش‌ها</string>
+    <string name="insights_summary_title">خلاصه چرخه‌ها</string>
+    <string name="insights_not_enough">بعد از ثبت حداقل دو پریود، اینجا آمار چرخه‌هایت را می‌بینی.</string>
+    <string name="insights_average">میانگین چرخه‌های اخیر شما %1$d روز بوده است.</string>
+    <string name="insights_range">طول %1$d چرخه اخیر شما بین %2$d تا %3$d روز بوده است.</string>
+    <string name="insights_range_same">طول %1$d چرخه اخیر شما %2$d روز بوده است.</string>
+    <string name="insights_cycles_recorded">تعداد چرخه‌های کامل ثبت‌شده: %1$d</string>
+    <string name="insights_period_average">میانگین مدت پریودهایی که پایانشان ثبت شده: %1$d روز</string>
+    <string name="insights_statistical_note">این اطلاعات صرفاً آماری است و نتیجه‌گیری پزشکی نیست.</string>
+    <string name="insights_chart_title">طول چرخه‌های اخیر (روز)</string>
+    <string name="history_title">تاریخچه پریودها</string>
+    <string name="history_empty">هنوز چیزی ثبت نشده است.</string>
+    <string name="history_period_length">مدت: %1$d روز</string>
+    <string name="history_end_unknown">پایان ثبت نشده (تخمین: %1$d روز)</string>
+    <string name="period_edit_title">ویرایش پریود</string>
+    <string name="period_start_label">روز شروع</string>
+    <string name="period_end_label">روز پایان</string>
+    <string name="period_end_not_set">ثبت نشده</string>
+    <string name="learn_title">یاد بگیر</string>
+    <string name="learn_subtitle">نکته‌هایی برای حمایت و ارتباط بهتر. هر کدام را با تجربه و خواسته‌های خود او تطبیق بده.</string>
+    <string name="filter_all">همه</string>
+    <string name="category_self_care">مراقبت از خود</string>
+    <string name="category_emotional">حمایت عاطفی</string>
+    <string name="category_practical">حمایت عملی</string>
+    <string name="category_communication">ارتباط</string>
+    <string name="category_education">آگاهی</string>
+    <string name="tab_home">خانه</string>
+    <string name="tab_calendar">تقویم</string>
+    <string name="tab_insights">بینش‌ها</string>
+    <string name="tab_learn">یاد بگیر</string>
+    <string name="tab_settings">تنظیمات</string>
+    <string name="settings_cycle">اطلاعات چرخه</string>
+    <string name="settings_cycle_hint">طول چرخه و مدت پریود</string>
+    <string name="settings_notifications">اعلان‌ها</string>
+    <string name="settings_notifications_hint">زمان و نوع یادآوری‌ها</string>
+    <string name="settings_partner">پارتنر</string>
+    <string name="settings_partner_hint_her">اتصال و انتخاب اطلاعات قابل اشتراک</string>
+    <string name="settings_partner_hint_partner">وارد کردن یا به‌روزرسانی کد اتصال</string>
+    <string name="settings_privacy">حریم خصوصی</string>
+    <string name="settings_privacy_hint">اعلان‌های خصوصی و اطلاعات روی دستگاه</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_theme">ظاهر</string>
+    <string name="settings_about">درباره کنارت</string>
+    <string name="settings_disclaimer">سلب مسئولیت پزشکی</string>
+    <string name="settings_delete_all">حذف همه اطلاعات</string>
+    <string name="settings_delete_all_hint">پاک کردن کامل اطلاعات از این گوشی</string>
+    <string name="theme_system">مطابق سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
+    <string name="delete_all_title">همه اطلاعات حذف شود؟</string>
+    <string name="delete_all_body">همه پریودها، علائم، یادداشت‌ها، تنظیمات و اطلاعات اتصال از این گوشی برای همیشه پاک می‌شوند و یادآوری‌ها لغو می‌شوند. این کار قابل بازگشت نیست.</string>
+    <string name="delete_all_confirm">حذف همه اطلاعات</string>
+    <string name="cycle_settings_estimate">تخمین فعلی بر اساس %2$d چرخه ثبت‌شده: %1$d روز. کنارت از میانگین چرخه‌های اخیر استفاده می‌کند.</string>
+    <string name="cycle_settings_note">با ذخیره، تخمین‌ها و یادآوری‌های آینده دوباره محاسبه می‌شوند.</string>
+    <string name="notif_enabled">یادآوری‌ها فعال باشند</string>
+    <string name="notif_time">ساعت یادآوری</string>
+    <string name="notif_types_title">نوع یادآوری‌ها</string>
+    <string name="notif_period">یادآوری پریود</string>
+    <string name="notif_period_hint">دو روز قبل و روز احتمالی شروع</string>
+    <string name="notif_phase">یادآوری تغییر مرحله</string>
+    <string name="notif_phase_hint">وقتی مرحله تخمینی چرخه تغییر می‌کند</string>
+    <string name="notif_partner">یادآوری‌های پارتنر</string>
+    <string name="notif_partner_hint">یادآوری‌هایی برای حمایت بهتر از او</string>
+    <string name="notif_educational">یادآوری‌های آموزشی</string>
+    <string name="notif_educational_hint">گاهی یک نکته کوتاه و کاربردی</string>
+    <string name="notif_hide_sensitive">مخفی کردن اطلاعات حساس در اعلان</string>
+    <string name="notif_hide_sensitive_hint">به جای جزئیات، فقط «کنارت یک یادآوری برای شما دارد» نمایش داده می‌شود.</string>
+    <string name="notif_note">روی صفحه قفل، اعلان‌ها همیشه بدون جزئیات نمایش داده می‌شوند. اگر تاریخ‌ها یا طول چرخه تغییر کند، یادآوری‌ها خودکار دوباره تنظیم می‌شوند.</string>
+    <string name="notif_permission_missing">اجازه نمایش اعلان داده نشده است؛ بدون آن یادآوری‌ها نمایش داده نمی‌شوند.</string>
+    <string name="notif_permission_allow">اجازه دادن</string>
+    <string name="notification_channel_name">یادآوری‌ها</string>
+    <string name="notification_channel_description">یادآوری‌های چرخه و نکته‌های کنارت</string>
+    <string name="notification_private_body">کنارت یک یادآوری برای شما دارد.</string>
+    <string name="notif_tip_title">نکته امروز: %1$s</string>
+    <string name="notif_her_period_soon_title">پریودت احتمالاً نزدیک است.</string>
+    <string name="notif_her_period_soon_body">اگر معمولاً در این روزها به چیز خاصی نیاز داری، بهتر است از قبل آماده باشی و به بدنت فرصت استراحت بدهی.</string>
+    <string name="notif_her_day1_title">روز اول چرخه</string>
+    <string name="notif_her_day1_body">امروز بیشتر به نیازهای بدنت توجه کن. استراحت، آب کافی و مراقبت‌هایی که معمولاً برایت مفید هستند می‌توانند کمک‌کننده باشند. اگر پریودت شروع شد، آن را ثبت کن.</string>
+    <string name="notif_her_follicular_title">مرحله تازه‌ای از چرخه</string>
+    <string name="notif_her_follicular_body">بر اساس تخمین، احتمالاً وارد مرحله فولیکولار شده‌ای. بعضی افراد در این روزها انرژی بیشتری حس می‌کنند؛ ببین برای تو چطور است.</string>
+    <string name="notif_her_ovulation_title">بازه احتمالی تخمک‌گذاری</string>
+    <string name="notif_her_ovulation_body">بر اساس تخمین، بازه احتمالی تخمک‌گذاری شروع شده است. این تاریخ قطعی نیست و کنارت روش پیشگیری از بارداری نیست.</string>
+    <string name="notif_her_luteal_title">مرحله لوتئال</string>
+    <string name="notif_her_luteal_body">احتمالاً وارد روزهای پیش از پریود شده‌ای. اگر معمولاً در این روزها به استراحت یا مراقبت بیشتری نیاز داری، برایش جا باز کن.</string>
+    <string name="notif_partner_period_soon_title">ممکن است پریود او نزدیک باشد.</string>
+    <string name="notif_partner_period_soon_body">امروز می‌توانی با یک سؤال ساده شروع کنی: چیزی هست که بتوانم کمکت کنم؟</string>
+    <string name="notif_partner_day1_title">ممکن است امروز روز اول پریود او باشد.</string>
+    <string name="notif_partner_day1_body">اگر می‌خواهی کمک کنی، به جای حدس زدن، از خودش بپرس چه چیزی نیاز دارد.</string>
+    <string name="notif_partner_follicular_title">مرحله تازه‌ای از چرخه</string>
+    <string name="notif_partner_follicular_body">بر اساس تخمین، پریود احتمالاً تمام شده است. شاید وقت خوبی برای برنامه‌ریزی یک کار مشترک باشد؛ از او بپرس چه دوست دارد.</string>
+    <string name="notif_partner_ovulation_title">بازه احتمالی تخمک‌گذاری</string>
+    <string name="notif_partner_ovulation_body">این فقط یک تخمین است و درباره حس یا رفتار او چیزی نمی‌گوید. حال امروزش را از خودش بپرس.</string>
+    <string name="notif_partner_luteal_title">روزهای پیش از پریود</string>
+    <string name="notif_partner_luteal_body">در این روزها کمک عملی و بدون قضاوت معمولاً ارزشمند است؛ مثل انجام دادن داوطلبانه کارهای کوچک.</string>
+    <string name="partner_her_intro">تو انتخاب می‌کنی پارتنرت چه چیزی را ببیند. پیش‌فرض فقط اطلاعات عمومی چرخه است.</string>
+    <string name="share_title">اطلاعات قابل اشتراک</string>
+    <string name="share_phase">مرحله چرخه</string>
+    <string name="share_next_date">تاریخ احتمالی پریود</string>
+    <string name="share_days_until">تعداد روز تا پریود</string>
+    <string name="private_title">اطلاعات خصوصی</string>
+    <string name="private_note">در این نسخه، این اطلاعات هرگز از گوشی تو خارج نمی‌شوند.</string>
+    <string name="pairing_nothing_shared">برای ساختن کد اتصال، حداقل یک مورد را برای اشتراک انتخاب کن.</string>
+    <string name="pairing_code_title">کد اتصال تو</string>
+    <string name="pairing_code_how">این کد را برای پارتنرت بفرست تا در کنارت وارد کند. کد فقط تاریخ شروع آخرین پریود، طول چرخه و مدت پریود و انتخاب‌های اشتراکت را در بر دارد.</string>
+    <string name="pairing_copy">کپی</string>
+    <string name="pairing_share">اشتراک‌گذاری</string>
+    <string name="pairing_share_message">کد اتصال من در کنارت: %1$s</string>
+    <string name="pairing_update_note">کنارت سرور ندارد، پس به‌روزرسانی خودکار انجام نمی‌شود. بعد از ثبت پریود جدید یا تغییر تنظیمات اشتراک، کد تازه را دوباره بفرست.</string>
+    <string name="partner_connected_title">متصل هستی</string>
+    <string name="partner_connected_since">آخرین به‌روزرسانی: %1$s</string>
+    <string name="partner_shared_with_you">او این موارد را با تو به اشتراک گذاشته است:</string>
+    <string name="partner_update_title">به‌روزرسانی با کد جدید</string>
+    <string name="partner_disconnect">قطع اتصال</string>
+    <string name="partner_disconnect_body">اطلاعات دریافت‌شده از این گوشی پاک می‌شود و یادآوری‌های مربوط لغو می‌شوند.</string>
+    <string name="privacy_title">اطلاعات تو، روی گوشی تو</string>
+    <string name="about_version">نسخه %1$s</string>
+    <string name="about_body">کنارت یک برنامه پیگیری چرخه برای زوج‌هاست. به جای اینکه فقط برای یک نفر باشد، به هر دو نفر کمک می‌کند چرخه را بهتر بشناسند و در زمان مناسب، حمایت و ارتباط بهتری داشته باشند.</string>
+    <string name="about_principle_title">اصل ما</string>
+    <string name="about_principle_body">تجربه چرخه برای هر فرد متفاوت است. کنارت رفتار هیچ‌کس را به هورمون‌ها نسبت نمی‌دهد؛ هدفش آگاهی، احترام و ارتباط بهتر است.</string>
+    <string name="about_font_credit">فونت وزیرمتن (Vazirmatn) اثر صابر راستی‌کردار، تحت مجوز SIL Open Font License.</string>
+    <string name="disclaimer_short">پیش‌بینی‌ها تقریبی هستند. کنارت ابزار تشخیص پزشکی یا روش پیشگیری از بارداری نیست.</string>
+    <string name="disclaimer_full">اطلاعات و پیش‌بینی‌های این برنامه تقریبی هستند و ممکن است برای هر فرد متفاوت باشند. این برنامه ابزار تشخیص پزشکی یا روش پیشگیری از بارداری نیست.</string>
+    <string name="disclaimer_severe">اگر علائم شدید، مداوم یا غیرمعمول دارید، با پزشک یا متخصص سلامت مشورت کنید.</string>
+    <string name="disclaimer_no_medication">کنارت تشخیص پزشکی نمی‌دهد و هیچ دارو یا دوز دارویی پیشنهاد نمی‌کند. توصیه‌ها عمومی هستند و جای مشورت با متخصص را نمی‌گیرند.</string>
+    <string-array name="her_daily_care">
+        <item>استراحت کافی</item>
+        <item>نوشیدن آب</item>
+        <item>توجه به وضعیت بدن</item>
+        <item>خواب مناسب</item>
+        <item>فعالیت سبک، اگر دوست داشتی</item>
+    </string-array>
+    <string-array name="partner_do">
+        <item>از او بپرس آیا چیزی نیاز دارد.</item>
+        <item>اگر خسته است، به او برای استراحت فضا بده.</item>
+        <item>کارهای کوچک را داوطلبانه انجام بده.</item>
+        <item>درباره احساسش قضاوت نکن.</item>
+        <item>اگر درد دارد، آن را جدی بگیر.</item>
+    </string-array>
+    <string-array name="partner_dont">
+        <item>شوخی درباره پریود</item>
+        <item>گفتن «همه‌اش به خاطر هورمون‌هاست»</item>
+        <item>فرض کردن اینکه حتماً ناراحت یا عصبی است</item>
+        <item>کوچک شمردن درد یا ناراحتی</item>
+    </string-array>
+    <string-array name="private_items">
+        <item>علائم</item>
+        <item>یادداشت‌های شخصی</item>
+        <item>شدت درد</item>
+        <item>اطلاعات سلامت</item>
+    </string-array>
+    <string-array name="privacy_points">
+        <item>برای استفاده از کنارت به ثبت‌نام یا ورود نیاز نیست.</item>
+        <item>همه اطلاعات فقط روی همین گوشی ذخیره می‌شود. کنارت اصلاً اجازه دسترسی به اینترنت ندارد.</item>
+        <item>اطلاعات در پشتیبان‌گیری ابری یا انتقال به گوشی دیگر قرار نمی‌گیرد.</item>
+        <item>علائم و یادداشت‌ها هرگز به اشتراک گذاشته نمی‌شوند.</item>
+        <item>اعلان‌ها روی صفحه قفل همیشه بدون جزئیات نمایش داده می‌شوند.</item>
+        <item>هر زمان می‌توانی همه اطلاعات را کامل پاک کنی.</item>
+    </string-array>
+</resources>

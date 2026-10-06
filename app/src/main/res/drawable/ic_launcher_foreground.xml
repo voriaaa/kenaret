@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kenaret icon: a cycle ring, a crescent moon, and two people side by side on the ring. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Cycle ring -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 53.99,28"
+        android:strokeWidth="3"
+        android:strokeColor="#F3E9DD"
+        android:strokeAlpha="0.45"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Crescent moon -->
+    <path
+        android:fillColor="#F3E9DD"
+        android:pathData="M52.34,43.10 A13,13 0 1,0 66.38,59.96 A11,11 0 0,1 52.34,43.10 Z" />
+    <!-- Two people next to each other on the ring -->
+    <path
+        android:fillColor="#E59A7E"
+        android:strokeColor="#22304A"
+        android:strokeWidth="2"
+        android:pathData="M62.9,29.6 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+    <path
+        android:fillColor="#9CCBAE"
+        android:strokeColor="#22304A"
+        android:strokeWidth="2"
+        android:pathData="M73.9,37.3 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+</vector>
