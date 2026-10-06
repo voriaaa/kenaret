@@ -84,8 +84,18 @@ jobs:
       - name: Verify release signature
         if: env.HAS_RELEASE_KEY == 'true'
         run: |
-          APKSIGNER=$(ls -d "$ANDROID_HOME"/build-tools/*/ | sort -V | tail -1)apksigner
-          "$APKSIGNER" verify --print-certs app/build/outputs/apk/release/app-release.apk | grep -E "Signer #1 certificate (DN|SHA-256)"
+          APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner -type f | sort -V | tail -1)
+          echo "Using $APKSIGNER"
+          OUT=$("$APKSIGNER" verify --verbose --print-certs app/build/outputs/apk/release/app-release.apk 2>&1)
+          STATUS=$?
+          echo "$OUT"
+          SUMMARY=$(echo "$OUT" | grep -E "Verifies|Verified using|certificate DN|SHA-256 digest" | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"} {print}')
+          if [ $STATUS -eq 0 ]; then
+            echo "::notice title=Release signature OK::${SUMMARY}"
+          else
+            echo "::error title=Release signature check failed::$(echo "$OUT" | tail -20 | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"} {print}')"
+          fi
+          exit $STATUS
 
       - name: Upload release APK
         if: env.HAS_RELEASE_KEY == 'true'
