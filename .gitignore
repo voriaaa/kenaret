@@ -12,3 +12,4 @@
 *.aab
 *.keystore
 *.jks
+gradle-output.log
