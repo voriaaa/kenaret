@@ -29,6 +29,10 @@
 - اعلان‌ها روی صفحه قفل همیشه بدون جزئیات نمایش داده می‌شوند.
 - «حذف همه اطلاعات» همه جدول‌ها، تنظیمات و یادآوری‌ها را پاک می‌کند.
 
+## انتشار در فروشگاه‌ها
+
+متن معرفی فارسی/انگلیسی و پاسخ‌های Play Console در پوشه [`store/`](store) و سیاست حریم خصوصی در [`docs/privacy.html`](docs/privacy.html) است.
+
 ## سلب مسئولیت پزشکی
 
 اطلاعات و پیش‌بینی‌های این برنامه تقریبی هستند و ممکن است برای هر فرد متفاوت باشند. این برنامه ابزار تشخیص پزشکی یا روش پیشگیری از بارداری نیست. اگر علائم شدید، مداوم یا غیرمعمول دارید، با پزشک یا متخصص سلامت مشورت کنید.
@@ -122,6 +126,10 @@ The project is fully native Android: no Node.js / npm, so no JavaScript lock fil
 ## Privacy
 
 No account, no network permission, no analytics. All data stays on the device and is excluded from backups. Sensitive data is never logged. Lock-screen notifications never show details.
+
+## Store publishing
+
+Store listings (Persian/English) and Play Console answers are in [`store/`](store); the privacy policy is [`docs/privacy.html`](docs/privacy.html) (publish it with GitHub Pages: Settings → Pages → Deploy from branch → `main` / `/docs`).
 
 ## Medical disclaimer
 
